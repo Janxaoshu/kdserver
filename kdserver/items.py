@@ -11,4 +11,6 @@ import scrapy
 class KdserverItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    title = scrapy.Field()
+    subject = scrapy.Field()
     pass
